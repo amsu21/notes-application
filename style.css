@@ -1,0 +1,13 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
+body {
+  background: linear-gradient (to right, #8e2de2, #4a00e0);
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin: 0 auto;
+}

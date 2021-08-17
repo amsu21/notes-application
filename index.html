@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <title>EasyNotes</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="tabs is-centered">
+      <ul>
+        <li class="is-active"><a>Add a Note</a></li>
+        <li><a>Notes</a></li>
+      </ul>
+    </div>
+    <div class="form" id="myForm">
+      <div class="field is-horizontal">
+        <div class="field-label is-normal">
+          <label class="label">Name</label>
+        </div>
+        <div class="field-body">
+          <div class="field">
+            <p class="control">
+              <input
+                class="input is-hovered is-rounded"
+                type="email"
+                placeholder="Name"
+              />
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="field is-horizontal">
+        <div class="field-label is-normal">
+          <label class="label">Notes</label>
+        </div>
+        <div class="field-body">
+          <div class="field">
+            <p class="control">
+              <input
+                class="input is-hovered is-rounded"
+                type="email"
+                placeholder="Add Note"
+              />
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="submit" id="submitButton">
+        <button class="button is-link is-hovered is-centered" id="buttonId">
+          Submit
+        </button>
+      </div>
+    </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
