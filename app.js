@@ -1,8 +1,13 @@
-// ACCESS FORM
-var form = document.getElementById("myForm");
-var submitButton = document.getElementById("buttonId");
+// ACCES FORM
+let form = querySelector(".form");
 
-// EVENT LISTENER
-document.getElementById("buttonId").addEventListener("click", function () {
-    submitButton.submit();
-})
+// GET DATA
+document.querySelectorAll("#myForm input");
+
+
+// EVENT LISTENERS
+
+
+// FUNCTION
+Array.from(document.querySelectorAll("#myForm input")).reduce((acc, input) => ({
+    ...acc, [input.id]: input.value }), {});
