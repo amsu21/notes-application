@@ -7,8 +7,14 @@ const button = document.getElementById('submitButton');
      receiveName();
  });
 
-// DATA FUNCTION
+// NAME FUNCTION
 function receiveName() {
+    var name = document.getElementById('input_id').value;
+    document.getElementById('alert').innerHTML = "The user's name is: " + name;
+}
+
+// NOTE FUNCTION
+function receiveNotes() {
     var note = document.getElementById('input_id').value;
-    document.getElementById('alert').innerHTML = "The user's name is: " + note;
+    document.getElementById('alert').innerHTML = "This note shows: " + note;
 }
