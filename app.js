@@ -4,11 +4,11 @@ const button = document.getElementById('submitButton');
 
 // EVENT LISTENER FOR BUTTON
  document.getElementById('submitButton').addEventListener('click', () => {
-     receiveNotes();
+     receiveName();
  });
 
 // DATA FUNCTION
-function receiveNotes() {
+function receiveName() {
     var note = document.getElementById('input_id').value;
-    document.getElementById('alert').innerHTML = "The user input is: " + note;
+    document.getElementById('alert').innerHTML = "The user's name is: " + note;
 }
