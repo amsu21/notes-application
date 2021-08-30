@@ -6,20 +6,29 @@ const button = document.getElementById('submitButton');
  document.getElementById('submitButton').addEventListener('click', () => {
      receiveName();
      receiveNotes();
+     arrayData();
  });
 
 // NAME FUNCTION
 function receiveName() {
     var name = document.getElementById('input_id').value;
-    document.getElementById('alert').innerHTML = "The user's name is: " + name;
+    //document.getElementById('alert').innerHTML = "The user's name is: " + name;
 }
 
 // NOTE FUNCTION
 function receiveNotes() {
     var note = document.getElementById('inputId').value;
-    document.getElementById('prompt').innerHTML = "This note shows: " + note;
+    //document.getElementById('prompt').innerHTML = "This note shows: " + note;
 }
 
 
 // FUNCTION THAT SAVES DATA TO AN ARRAY
-var noteData = [];
+function arrayData() {
+    var noteData = [];
+    var newName = document.getElementById('input_id').value;
+    var newNote = document.getElementById('inputId').value;
+    // PUSH DATA TO THE ARRAY
+    noteData.push(newName);
+    noteData.push(newNote);
+    console.log(noteData);
+}
