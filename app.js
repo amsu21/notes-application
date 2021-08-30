@@ -19,3 +19,7 @@ function receiveNotes() {
     var note = document.getElementById('inputId').value;
     document.getElementById('prompt').innerHTML = "This note shows: " + note;
 }
+
+
+// FUNCTION THAT SAVES DATA TO AN ARRAY
+var noteData = [];
