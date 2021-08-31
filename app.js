@@ -1,6 +1,7 @@
-// ACCESS FORM AND BUTTON
+// ACCESS FORM AND BUTTONS
 const form = document.getElementById('myForm');
 const button = document.getElementById('submitButton');
+const notesButton = document.getElementById('noteId');
 
 // EVENT LISTENER FOR BUTTON
  document.getElementById('submitButton').addEventListener('click', () => {
