@@ -11,3 +11,7 @@ body {
   height: 200px;
   margin: 0 auto;
 }
+
+.all-notes {
+  margin-left: 2rem;
+}
