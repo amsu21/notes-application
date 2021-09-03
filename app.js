@@ -10,7 +10,8 @@ function allFunctions() {
         //  receiveNotes();
          arrayData();
          noteCounter();
-});
+    });
+}
 
 // NAME FUNCTION
 // function receiveName() {
@@ -41,7 +42,6 @@ var counter = 0;
 function noteCounter() {
     counter++;
     console.log(counter);
-}
 }
 
 allFunctions();
