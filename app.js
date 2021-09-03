@@ -43,3 +43,5 @@ function noteCounter() {
     console.log(counter);
 }
 }
+
+allFunctions();
