@@ -5,22 +5,23 @@ const notesButton = document.getElementById('notesButton');
 
 // EVENT LISTENER FOR BUTTON
  document.getElementById('submitButton').addEventListener('click', () => {
-     receiveName();
-     receiveNotes();
+    //  receiveName();
+    //  receiveNotes();
      arrayData();
+     noteCounter();
  });
 
 // NAME FUNCTION
-function receiveName() {
-    var name = document.getElementById('input_id').value;
-    //document.getElementById('alert').innerHTML = "The user's name is: " + name;
-}
+// function receiveName() {
+//     var name = document.getElementById('input_id').value;
+//     //document.getElementById('alert').innerHTML = "The user's name is: " + name;
+// }
 
-// NOTE FUNCTION
-function receiveNotes() {
-    var note = document.getElementById('inputId').value;
-    //document.getElementById('prompt').innerHTML = "This note shows: " + note;
-}
+// // NOTE FUNCTION
+// function receiveNotes() {
+//     var note = document.getElementById('inputId').value;
+//     //document.getElementById('prompt').innerHTML = "This note shows: " + note;
+// }
 
 
 // FUNCTION THAT SAVES DATA TO AN ARRAY
@@ -32,4 +33,11 @@ function arrayData() {
     noteData.push(newName);
     noteData.push(newNote);
     console.log(noteData);
+}
+
+// FUNCTION THAT KEEPS COUNT OF NOTES
+var counter = 0;
+function noteCounter() {
+    counter++;
+    console.log(counter);
 }
