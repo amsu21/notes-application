@@ -4,12 +4,13 @@ const button = document.getElementById('submitButton');
 const notesButton = document.getElementById('notesButton');
 
 // EVENT LISTENER FOR BUTTON
- document.getElementById('submitButton').addEventListener('click', () => {
-    //  receiveName();
-    //  receiveNotes();
-     arrayData();
-     noteCounter();
- });
+function allFunctions() {
+    document.getElementById('submitButton').addEventListener('click', () => {
+        //  receiveName();
+        //  receiveNotes();
+         arrayData();
+         noteCounter();
+});
 
 // NAME FUNCTION
 // function receiveName() {
@@ -40,4 +41,5 @@ var counter = 0;
 function noteCounter() {
     counter++;
     console.log(counter);
+}
 }
