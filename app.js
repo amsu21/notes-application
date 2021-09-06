@@ -2,6 +2,7 @@
 const form = document.getElementById('myForm');
 const button = document.getElementById('submitButton');
 const notesButton = document.getElementById('notesButton');
+const deletedButton = document.getElementById('deleteButton');
 
 // EVENT LISTENER FOR BUTTON
 function allFunctions() {
