@@ -24,3 +24,7 @@ body {
   margin: 0 auto;
   font-size: 2em;
 }
+
+.panel-heading p {
+  margin-left: 2rem;
+}
