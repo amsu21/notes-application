@@ -37,7 +37,7 @@ function arrayData() {
     noteData.push(newNote);
     console.log(noteData);
     // PRINT ALL VALUES FROM THE ARRAY
-    
+    //console.log(valueOf.noteData);
 }
 
 // FUNCTION THAT KEEPS COUNT OF NOTES
