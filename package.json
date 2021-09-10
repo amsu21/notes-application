@@ -8,6 +8,22 @@
     "nodemon": "^2.0.12"
   },
   "scripts": {
-    "dev": "nodemon "
-  }
+    "dev": "nodemon ",
+    "start": "app.js"
+  },
+  "name": "notes-app",
+  "description": "Simple notes web application.",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amsu21/notes-application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amsu21/notes-application/issues"
+  },
+  "homepage": "https://github.com/amsu21/notes-application#readme"
 }
