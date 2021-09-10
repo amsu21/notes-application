@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "nodemon ",
-    "start": "app.js"
+    "start": "node app.js"
   },
   "name": "notes-app",
   "description": "Simple notes web application.",
