@@ -5,14 +5,19 @@ const notesButton = document.getElementById('notesButton');
 const deletedButton = document.getElementById('deleteButton');
 
 // EVENT LISTENER FOR BUTTON
-function allFunctions() {
+function submitButton() {
     document.getElementById('submitButton').addEventListener('click', () => {
-        //  receiveName();
-        //  receiveNotes();
-         arrayData();
-         noteCounter();
-    });
+        arrayData();
+    })
 }
+// function allFunctions() {
+//     document.getElementById('submitButton').addEventListener('click', () => {
+//         //  receiveName();
+//         //  receiveNotes();
+//          arrayData();
+//          //noteCounter();
+//     });
+// }
 
 // NAME FUNCTION
 // function receiveName() {
@@ -37,14 +42,14 @@ function arrayData() {
     noteData.push(newNote);
     console.log(noteData);
     // PRINT ALL VALUES FROM THE ARRAY
-    //console.log(valueOf.noteData);
 }
 
-// FUNCTION THAT KEEPS COUNT OF NOTES
-var counter = 0;
-function noteCounter() {
-    counter++;
-    console.log(counter);
-}
+// // FUNCTION THAT KEEPS COUNT OF NOTES
+// var counter = 0;
+// function noteCounter() {
+//     counter++;
+//     console.log(counter);
+// }
 
-allFunctions();
+//allFunctions(); 
+submitButton();
