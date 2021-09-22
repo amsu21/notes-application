@@ -4,13 +4,6 @@ const button = document.getElementById('submitButton');
 const notesButton = document.getElementById('notesButton');
 const deletedButton = document.getElementById('deleteButton');
 
-// EVENT LISTENER FOR BUTTON
-// function submitButton() {
-//     document.getElementById('submitButton').addEventListener('click', () => {
-//         arrayData();
-//     })
-// }
-
 function allFunctions() {
     document.getElementById('submitButton').addEventListener('click', () => {
         arrayData();
