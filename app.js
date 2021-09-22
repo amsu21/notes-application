@@ -5,9 +5,16 @@ const notesButton = document.getElementById('notesButton');
 const deletedButton = document.getElementById('deleteButton');
 
 // EVENT LISTENER FOR BUTTON
-function submitButton() {
+// function submitButton() {
+//     document.getElementById('submitButton').addEventListener('click', () => {
+//         arrayData();
+//     })
+// }
+
+function allFunctions() {
     document.getElementById('submitButton').addEventListener('click', () => {
         arrayData();
+        noteCounter();
     })
 }
 // function allFunctions() {
@@ -44,12 +51,12 @@ function arrayData() {
     // PRINT ALL VALUES FROM THE ARRAY
 }
 
-// // FUNCTION THAT KEEPS COUNT OF NOTES
-// var counter = 0;
-// function noteCounter() {
-//     counter++;
-//     console.log(counter);
-// }
+// FUNCTION THAT KEEPS COUNT OF NOTES
+var counter = 0;
+function noteCounter() {
+    counter++;
+    console.log(counter);
+}
 
-//allFunctions(); 
-submitButton();
+allFunctions(); 
+//submitButton();
