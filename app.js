@@ -17,14 +17,6 @@ function allFunctions() {
         noteCounter();
     })
 }
-// function allFunctions() {
-//     document.getElementById('submitButton').addEventListener('click', () => {
-//         //  receiveName();
-//         //  receiveNotes();
-//          arrayData();
-//          //noteCounter();
-//     });
-// }
 
 // NAME FUNCTION
 // function receiveName() {
